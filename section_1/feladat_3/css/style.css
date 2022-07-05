@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    background-color: red;
+}
+
+table{
+    width:1334px;
+    height:120px;
+    position: relative;}
+
+.elso {
+    
+    background:#C4C4C4;   
+    width: 120px;
+    height:120px;
+    
+    position: absolute;  
+    left: 0%;
+    right: 91%;
+    top: 0.03%;
+    bottom: -0.03%;
+}
+.elso >img  {
+    height: 120px;
+    width:120px;
+}
+
+.masodik{  
+    position: absolute;
+    height: 103px;
+    width: 620px;
+    left: 135px;
+    top: 9px;    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+
+.harmadik {
+    position: absolute;
+    height: 23px;
+    width: 183px;
+    left: 734px;
+    top: 47px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    color: #000000;
+}
+
+button {
+    position:absolute;
+    height: 56px;
+    justify-content: center;
+    width: 56px;
+    border-radius: 32px;
+}
+
+.egy{
+    left: 994px;
+    top: 32px;
+    padding: 4px, 8px, 4px, 8px;
+    background-color: #006633;
+    color:white;
+    border:none;}
+
+
+
+.ketto{
+right: 200px;
+top: 33px;
+background-color: #006633;
+color:white;
+border:none;
+}
+
+.harom{
+right: 116px;
+top: 33px;
+background-color: #006633;
+color:white;
+border:none;
+}
+
+.negy{
+    right:32px;
+    top:33px;
+    align-items: center;
+    background-color: #006633;
+    color:white;
+    border:none;
+}
+
+.fas {
+    font-size: 30px;
+}
+.igazitas{
+    margin: 150px auto;
+  
+}
+
+button:hover{
+    background-color: #DF7E24;
+}
+
